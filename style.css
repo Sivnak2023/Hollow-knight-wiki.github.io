@@ -26,16 +26,26 @@ a{
     color:white;
 }
 
+main{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.ocho{
+    width: 80%;
+}
+.dos{
+    width: 20%;
+}
 
 .header__boton img{
     width: 40px;
 }
 
-.header__boton .boton__switch{
+.header_boton .boton_switch{
     width: 250px;
 }
 
-.boton-header__boton .barra-header__barra{
+.boton-header_boton .barra-header_barra{
     background-color:black;
 }
 
@@ -96,12 +106,23 @@ a{
 .main-Logros__Texto{
     padding-left: 20px;
 }
+.tiempo{
+    width: 300px;
+    background-image: url("Hollow Knight Wiki (Community)//Sidebar Image.png");
+}
 
 .tiempo__img-inicial{
     display:flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
 }
 
 .tiempo__contain{
     display:flex;
+}
+.tiempo__contain{
+    width: inherit;
+}
+.tiempo__texto{
+    display:flex;
+    flex-wrap:wrap;
 }
