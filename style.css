@@ -108,15 +108,22 @@ main{
 }
 .tiempo{
     background-image: url("Hollow Knight Wiki (Community)//Sidebar Image.png");
-    height:850px;
     width:379px;
+}
+
+.tiempo__titulo{
+    padding:20px;
 }
 
 .tiempo__img-inicial{
     display:inline-flex;
     flex-wrap:nowrap;
 }
+.tiempo__img{
+    scale:70%;
+}
 
 .tiempo__contain{
     display:flex;
+    margin:30px;
 }
